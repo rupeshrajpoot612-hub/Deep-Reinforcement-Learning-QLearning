@@ -1,0 +1,26 @@
+{
+  "environment_id": "FrozenLake-v1",
+  "description": "Gymnasium FrozenLake-v1 environment. No external dataset is required for this project — the environment itself (a grid-world with Start, Frozen, Hole, and Goal tiles) is generated procedurally by Gymnasium. This file documents the exact configuration used so results are reproducible.",
+  "map_name": "4x4",
+  "is_slippery": true,
+  "num_states": 16,
+  "num_actions": 4,
+  "actions": {
+    "0": "LEFT",
+    "1": "DOWN",
+    "2": "RIGHT",
+    "3": "UP"
+  },
+  "default_4x4_map": [
+    "SFFF",
+    "FHFH",
+    "FFFH",
+    "HFFG"
+  ],
+  "tile_legend": {
+    "S": "Start tile (safe)",
+    "F": "Frozen tile (safe)",
+    "H": "Hole (episode ends, reward 0)",
+    "G": "Goal (episode ends, reward 1)"
+  }
+}

@@ -1,0 +1,22 @@
+Q-Learning Agent — Evaluation Report
+========================================
+
+Environment: FrozenLake-v1 (map=4x4, slippery=True)
+
+Training summary:
+  Total reward (training): 7052
+  Overall success rate (training): 47.01%
+  Success rate, last 1000 episodes (training): 66.50%
+
+Evaluation summary (greedy policy, no exploration):
+  Episodes evaluated: 1000
+  Successes: 741
+  Success rate: 74.10%
+  Total reward: 741
+  Average episode length: 44.33 steps
+
+Learned policy (arrows = best action per state):
+← ↑ ↑ ↑
+← ← → ←
+↑ ↓ ← ←
+← → ↓ ←
