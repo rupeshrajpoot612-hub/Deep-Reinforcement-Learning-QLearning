@@ -1,5 +1,11 @@
 # Task 3: Deep Reinforcement Learning (Q-Learning)
 
+## Intern Details
+
+- Intern ID: **[CITS2473]**
+- Full Name: **[Rupesh Singh]**
+- Duration: **[8 Weeks]**
+  
 An agent trained with **tabular Q-learning** to learn the optimal
 policy for navigating the **FrozenLake-v1** environment from
 [Gymnasium](https://gymnasium.farama.org/).
